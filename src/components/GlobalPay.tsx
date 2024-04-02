@@ -102,7 +102,6 @@ export const  GlobalPay = (
     })
     .catch(
       error => {
-        console.error(error);
         onError(
           {
             message: 'error occurred generating paymentlink',

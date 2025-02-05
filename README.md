@@ -7,7 +7,7 @@ This is a React library for integrating GlobalPay Payment Gateway into React app
 You can install this library via npm:
 
 ```bash
-npm install @zenith/globalpay-react
+npm install globalpay-react
 
 ```
 
@@ -15,7 +15,7 @@ npm install @zenith/globalpay-react
 ### Import the GlobalPay Component and Payload Type if you're using Typescript
 
 ```tsx
-import { GlobalPay, GeneratePaymentLinkPayload } from '@zenith/globalpay-react';
+import { GlobalPay, GeneratePaymentLinkPayload } from 'globalpay-react';
 
 export const App = () => {
     const payload: GeneratePaymentLinkPayload = {
